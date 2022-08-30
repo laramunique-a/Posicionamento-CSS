@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+    position: relative;
+}
+
+.azul {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(44, 44, 180);
+    position: absolute;
+    left: calc(50vw - 300px); /*metade viewport (100vw) - metade tamanho da div (600px)*/
+    top: calc(50vh - 300px);
+}
+
+.vermelho {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(172, 41, 41);
+    position: absolute;
+    left: calc(50vw - 250px);
+    top: calc(50vh - 250px);
+}
+
+.preto {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    position: absolute;
+    left: calc(50vw - 200px);
+    top: calc(50vh - 200px);
+}
+
+.verde {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(144, 190, 51);
+    position: absolute;
+    left: calc(50vw - 150px);
+    top: calc(50vh - 150px);
+}
+
+.amarelo {
+    width: 200px;
+    height: 200px;
+    background-color: goldenrod;
+    position: absolute;
+    left: calc(50vw - 100px);
+    top: calc(50vh - 100px);
+}
+
